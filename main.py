@@ -10,9 +10,6 @@ gameDisplay = pygame.display.set_mode((800,600))
 pygame.display.set_caption('Test')
 gameDisplay.fill((0,0,255))
 
-tbox = pygame.makeTextBox(10,80,300,0,"Enter text: ")
-pygame.showTextBox(tbox)
-
 crashed = False
 def drawTable():
     margin = 1
